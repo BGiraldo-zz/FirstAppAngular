@@ -17,7 +17,7 @@ export class AppComponent {
   names = ['Monster1', 'Monster2', 'Monster3', 'Monster4'];
 
   getUrl() {
-    return 'https://placeimg.com/640/480/any';
+    return 'https://api.adorable.io/avatars/140/' + Math.random();
   }
 
   constructor(private responseService: ResponseService) {
