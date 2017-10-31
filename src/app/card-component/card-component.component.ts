@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponentComponent implements OnInit {
 
-  word = 'text';
+  word1 = 'text';
 
   constructor() { }
 
